@@ -1,7 +1,11 @@
 ## Co je to URL?
 
-**URL** (*Uniform Resource Locator*) je adresa, která jednoznačně identifikuje a lokalizuje zdroj (např. webovou stránku, obrázek, video) na internetu.
-![httpsbaset](https://github.com/user-attachments/assets/8751a009-7148-45b7-a6d9-e3470ca9afed)
+**URL** (*Uniform Resource Locator*) je adresa, která jednoznačně identifikuje a lokalizuje zdroj (např. webovou stránku, obrázek, video) na internetu. Je to to co vidíte ve prostřed na hoře ve vašem browseru.
+![baset](https://github.com/user-attachments/assets/38550ae7-e819-460a-b66e-511b9b1ef829)
+
+Když na ní kliknete zobrazí se celá.
+![httpsbaset](https://github.com/user-attachments/assets/b03212c9-fea7-40b8-9e21-d5b3ebfff3eb)
+
 
 Příklad URL:
 
@@ -47,7 +51,16 @@ https://www.moje-stranka.cz:443/produkty/hodinky?barva=cerna#recenze
 - **Kotva:** `recenze`
 
 ---
+##Parametry v URL
+Parametry se zapisují za znakem ? a skládají se z *klíče a hodnoty* ve formátu:
 
+?klíč=hodnota
+
+Více parametrů se odděluje znakem &:
+
+?klíč=hodnota&klíč2=hodnota2
+
+---
 ## Speciální znaky v URL
 
 Některé znaky musí být zakódované (tzv. **URL encoding**):
