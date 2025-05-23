@@ -51,18 +51,7 @@ https://www.moje-stranka.cz:443/produkty/hodinky?barva=cerna#recenze
 - **Kotva:** `recenze`
 
 ---
-## Parametry v URL
-Parametry se zapisují za znakem ? a skládají se z *klíče a hodnoty* ve formátu:
 
-| ?klíč=hodnota |
-|---------------|
-
-Více parametrů se odděluje znakem &:
-
-| ?klíč=hodnota&klíč2=hodnota2 |
-|------------------------------|
-
----
 ## Speciální znaky v URL
 
 Některé znaky musí být zakódované (tzv. **URL encoding**):
@@ -77,4 +66,15 @@ Některé znaky musí být zakódované (tzv. **URL encoding**):
 
 ---
 
+## Parametry v URL
+Parametry se zapisují za znakem ? a skládají se z *klíče a hodnoty* ve formátu:
 
+| ?klíč=hodnota |
+|---------------|
+
+Více parametrů se odděluje znakem &:
+
+| ?klíč=hodnota&klíč2=hodnota2 |
+|------------------------------|
+
+---
