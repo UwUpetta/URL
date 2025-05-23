@@ -1,9 +1,11 @@
 ## Co je to URL?
 
 **URL** (*Uniform Resource Locator*) je adresa, která jednoznačně identifikuje a lokalizuje zdroj (např. webovou stránku, obrázek, video) na internetu.
+![httpsbaset](https://github.com/user-attachments/assets/8751a009-7148-45b7-a6d9-e3470ca9afed)
 
 Příklad URL:
-https://www.example.com:443/blog/clanek-1?tag=java#uvod
+
+https://salam.cz/baSET
 
 ---
 
