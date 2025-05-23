@@ -9,7 +9,7 @@ https://www.example.com:443/blog/clanek-1?tag=java#uvod
 
 ## Struktura URL
 
-schéma://uživatel:heslo@host:port/cesta?dotaz#kotva
+protokol://uživatel:heslo@host:port/cesta?dotaz#kotva
 
 
 | Část        | Popis                                                                 |
@@ -18,7 +18,7 @@ schéma://uživatel:heslo@host:port/cesta?dotaz#kotva
 | **Host**    | Doména nebo IP adresa, např. `www.example.com`                       |
 | **Port**    | (Volitelné) číslo portu, např. `443`                                 |
 | **Cesta**   | Umístění souboru/adresáře na serveru, např. `/blog/clanek-1`         |
-| **Parametry (Query)** | Parametry předávané např. formulářem: `?tag=java&autor=petr` |
+| **Parametry (Query)** | Parametry předávané např. formulářem: `?tag=java&autor=salam` |
 | **Kotva (Fragment)** | Odkazuje na část stránky, např. `#uvod`                     |
 
 ---
