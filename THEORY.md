@@ -46,6 +46,7 @@ Některé znaky musí být zakódované (tzv. **URL encoding**):
 | Mezera | `%20` |
 | `?`   | `%3F` |
 | `&`   | `%26` |
+
 ? nebo & mají speciální význam, takže se s nimi musí opatrně
 
 
