@@ -51,7 +51,7 @@ https://www.moje-stranka.cz:443/produkty/hodinky?barva=cerna#recenze
 - **Kotva:** `recenze`
 
 ---
-##Parametry v URL
+## Parametry v URL
 Parametry se zapisují za znakem ? a skládají se z *klíče a hodnoty* ve formátu:
 
 ?klíč=hodnota
