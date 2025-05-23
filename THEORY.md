@@ -7,6 +7,15 @@ https://www.example.com:443/blog/clanek-1?tag=java#uvod
 
 ---
 
+## Kde se URL používá?
+
+- Hypertextové odkazy na webu
+- Stahování souborů
+- Přesměrování a navigace
+- API volání (např. REST API)
+
+---
+
 ## Struktura URL
 
 protokol://uživatel:heslo@host:port/cesta?dotaz#kotva
@@ -48,17 +57,6 @@ Některé znaky musí být zakódované (tzv. **URL encoding**):
 | `&`   | `%26` |
 
 ? nebo & mají speciální význam, takže se s nimi musí opatrně
-
-
-
----
-
-## Kde se URL používá?
-
-- Hypertextové odkazy na webu
-- Stahování souborů
-- Přesměrování a navigace
-- API volání (např. REST API)
 
 ---
 
