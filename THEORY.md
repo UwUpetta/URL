@@ -55,10 +55,12 @@ https://www.moje-stranka.cz:443/produkty/hodinky?barva=cerna#recenze
 Parametry se zapisují za znakem ? a skládají se z *klíče a hodnoty* ve formátu:
 
 | ?klíč=hodnota |
+|---------------|
 
 Více parametrů se odděluje znakem &:
 
 | ?klíč=hodnota&klíč2=hodnota2 |
+|------------------------------|
 
 ---
 ## Speciální znaky v URL
