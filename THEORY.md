@@ -104,7 +104,6 @@ https://www.moje-stranka.cz:443/produkty/hodinky?barva=cerna#recenze
 | `www.moje-stranka.cz` | Host               |
 | `:443`     | Port                          |
 | `/produkty/hodinky` | Path                |
-| `?barva=cerna` | Parametr (query)         |
 | `#recenze` | Fragment                     |
 
 ---
@@ -117,7 +116,6 @@ https://www.moje-stranka.cz:443/produkty/hodinky?barva=cerna#recenze
 | **Host**    | Doména nebo IP adresa, např. `www.example.com`                       |
 | **Port**    | (Volitelné) číslo portu, např. `443`                                 |
 | **Path**    | Umístění souboru/adresáře na serveru, např. `/blog/clanek-1`         |
-| **Query**   | Klíč–hodnota, např. `?tag=java&autor=salam`                          |
 | **Fragment**| Odkazuje na část stránky, např. `#uvod`                              |
 
 ---
