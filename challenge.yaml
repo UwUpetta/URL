@@ -16,12 +16,12 @@ flags:
     points: 1
     maximumTries: 1
     options:
-    - value: "www.haxagon.xyz"
-      correct: false
+    - value: "haxagon.xyz"
+      correct: true
     - value: ":443"
       correct: false
     - value: "https"
-      correct: true
+      correct: false
     - value: "/chalange/url"
       correct: false
   - name: "Která z následujicích url je správně napsaná?"
@@ -42,10 +42,10 @@ flags:
     points: 1
     maximumTries: 1
     options:
-    - value: "https"
-      correct: true
     - value: "haxagon.xyz"
       correct: false
+    - value: "https"
+      correct: true
     - value: "/challenge/url"
       correct: false
     - value: "://"
