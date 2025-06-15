@@ -6,6 +6,8 @@ shortDescription: 'Úvod do struktury URL adres srozumitelně a na příkladech 
 
 theory: './THEORY.md'
 
+handbook: './HANDBOOK.md'
+
 description: './DESCRIPTION.md'
 
 flags:
