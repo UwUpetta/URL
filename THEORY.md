@@ -1,80 +1,129 @@
+# Základy URL
+
+## Co se naučíte
+
+V tomto materiálu se dozvíte:
+- Co je to URL a proč je důležitá.
+- Kde se URL používá (hypertextové odkazy, API volání...).
+- Z jakých částí se URL skládá a co znamenají.
+- Ukázku rozboru konkrétní URL adresy.
+- Shrnutí v přehledné tabulce.
+
+---
+
 ## Co je to URL?
 
-**URL** (*Uniform Resource Locator*) je adresa, která jednoznačně identifikuje a lokalizuje zdroj (např. webovou stránku, obrázek, video) na internetu. Je to to co vidíte ve prostřed na hoře ve vašem browseru.
-![baset](https://github.com/user-attachments/assets/38550ae7-e819-460a-b66e-511b9b1ef829)
-
-Když na ní kliknete zobrazí se celá.
-![httpsbaset](https://github.com/user-attachments/assets/b03212c9-fea7-40b8-9e21-d5b3ebfff3eb)
+**URL** (*Uniform Resource Locator*) je jednoznačná adresa zdroje na internetu – může to být webová stránka, obrázek, video, dokument apod. Je to adresa, kterou vidíte v adresním řádku vašeho webového prohlížeče.
 
 
 Příklad URL:
 
-https://salam.cz/baSET
+```
+https://haxagon.xyz/challenge/URL
+```
+
+URL není jen „adresní řádek“ – je to základní stavební prvek celého webu.
 
 ---
 
 ## Kde se URL používá?
 
-- Hypertextové odkazy na webu
-- Stahování souborů
-- Přesměrování a navigace
-- API volání (např. REST API)
+Možná si to neuvědomujete, ale URL se používá na mnoha místech:
+
+| Situace                    | Popis                                                                 |
+|----------------------------|-----------------------------------------------------------------------|
+| **Kliknutí na odkaz**      | Otevřete stránku s danou URL. Např. ve vyhledávači nebo článku.       |
+| **Formuláře**              | Po odeslání dat se URL může změnit a obsahovat parametry.            |
+| **API volání**             | Programy a aplikace si posílají data pomocí URL (např. REST API).    |
+| **Stahování souborů**      | Když kliknete na tlačítko „Stáhnout PDF“, spustí se URL k souboru.    |
+| **QR kódy**                | QR kód obvykle obsahuje URL – po načtení Vás přesměruje na web.       |
 
 ---
 
-## Struktura URL
+## Části URL
 
-protokol://uživatel:heslo@host:port/cesta?dotaz#kotva
+Každá URL má jasně danou strukturu. Pojďme si ji vysvětlit postupně:
 
+### Protocol
 
-| Část        | Popis                                                                 |
-|-------------|-----------------------------------------------------------------------|
-| **Protokol**| Např. `http`, `https`, `ftp`, `mailto`, `file`             |
-| **Host**    | Doména nebo IP adresa, např. `www.example.com`                       |
-| **Port**    | (Volitelné) číslo portu, např. `443`                                 |
-| **Cesta**   | Umístění souboru/adresáře na serveru, např. `/blog/clanek-1`         |
-| **Parametry (Query)** | Parametry předávané např. formulářem: `?tag=java&autor=salam` |
-| **Kotva (Fragment)** | Odkazuje na část stránky, např. `#uvod`                     |
+Určuje, jaký komunikační způsob se použije. Nejčastěji:
+- `http` (nezabezpečené spojení)
+- `https` (zabezpečené spojení)
+- Méně často: `ftp`, `mailto`, `file`
+
+**Příklad:**  
+`https://` znamená, že komunikace probíhá bezpečně přes SSL.
+
+---
+
+### Host
+
+Zpravidla název serveru nebo domény, kde je obsah uložen.
+
+**Příklad:**  
+`www.haxagon.xyz` – doména serveru.
+
+---
+
+### Port
+
+Pokud se používá jiný port než výchozí, je součástí URL (většinou není třeba uvádět).
+
+**Příklad:**  
+`:443` – výchozí port pro HTTPS.
+
+---
+
+### Path
+
+Určuje, kde přesně se obsah na serveru nachází.
+
+**Příklad:**  
+`/challenge/URL` – konkrétní stránka nebo složka.
+
+---
+
+### Fragment
+
+Odkazuje na konkrétní část stránky – třeba záložku nebo nadpis.
+
+**Příklad:**  
+`#kontakt` – proskroluje stránku na sekci s ID `kontakt`.
 
 ---
 
 ## Příklad rozboru URL
 
+Rozložíme si konkrétní URL:
+
+```
 https://www.moje-stranka.cz:443/produkty/hodinky?barva=cerna#recenze
+```
 
-
-- **Protokol:** `https`
-- **Doména:** `www.moje-stranka.cz`
-- **Port:** `443`
-- **Cesta:** `/produkty/hodinky`
-- **Dotaz (query):** `barva=cerna`
-- **Kotva:** `recenze`
-
----
-
-## Speciální znaky v URL
-
-Některé znaky musí být zakódované (tzv. **URL encoding**):
-
-| Znak | Kód  |
-|------|------|
-| Mezera | `%20` |
-| `?`   | `%3F` |
-| `&`   | `%26` |
-
-? nebo & mají speciální význam, takže se s nimi musí opatrně
+| Část       | Význam                        |
+|------------|-------------------------------|
+| `https`    | Protocol                      |
+| `www.moje-stranka.cz` | Host               |
+| `:443`     | Port                          |
+| `/produkty/hodinky` | Path                |
+| `?barva=cerna` | Parametr (query)         |
+| `#recenze` | Fragment                     |
 
 ---
 
-## Parametry v URL
-Parametry se zapisují za znakem ? a skládají se z *klíče a hodnoty* ve formátu:
+## Shrnutí – struktura URL
 
-| ?klíč=hodnota |
-|---------------|
-
-Více parametrů se odděluje znakem &:
-
-| ?klíč=hodnota&klíč2=hodnota2 |
-|------------------------------|
+| Část        | Popis                                                                 |
+|-------------|-----------------------------------------------------------------------|
+| **Protocol**| Např. `http`, `https`, `ftp`, `mailto`, `file`                       |
+| **Host**    | Doména nebo IP adresa, např. `www.example.com`                       |
+| **Port**    | (Volitelné) číslo portu, např. `443`                                 |
+| **Path**    | Umístění souboru/adresáře na serveru, např. `/blog/clanek-1`         |
+| **Query**   | Klíč–hodnota, např. `?tag=java&autor=salam`                          |
+| **Fragment**| Odkazuje na část stránky, např. `#uvod`                              |
 
 ---
+
+## Závěr
+
+URL je základní stavební kámen internetu. Znalost její struktury a použití Vám pomůže lépe pochopit, jak funguje web, API nebo třeba filtrování produktů v e-shopech. Pozornější z vás si možná všimli, že se v url často nachází znaky jako `&` nebo `?` o tom co znamenají si povíme příště...
