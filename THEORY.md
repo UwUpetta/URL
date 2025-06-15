@@ -1,13 +1,3 @@
-## Co se naučíte
-
-V tomto materiálu se dozvíte:
-- Co je to URL a proč je důležitá.
-- Kde se URL používá (hypertextové odkazy, API volání...).
-- Z jakých částí se URL skládá a co znamenají.
-- Ukázku rozboru konkrétní URL adresy.
-- Shrnutí v přehledné tabulce.
-
----
 
 ## URL
 
