@@ -1,1 +1,1 @@
-Základy URL kde jí najít a její rozložení a parametry.
+Tento přehledný výukový materiál vás provede základy URL adres – co to URL je, kde se používá a z jakých částí se skládá. Naučíte se rozpoznat jednotlivé části URL (protocol, host, port, path, fragment) a porozumíte jejich významu pomocí konkrétních příkladů. Je určen studentům, kteří se s URL teprve seznamují, i těm, kteří si chtějí utřídit své znalosti.
