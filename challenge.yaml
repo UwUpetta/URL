@@ -18,7 +18,33 @@ flags:
       correct: false
     - value: ":443"
       correct: false
-    - value: "https://"
+    - value: "https"
       correct: true
     - value: "/chalange/url"
+      correct: false
+  - name: "Která z následujicích url je správně napsaná?"
+    type: 3
+    points: 1
+    maximumTries: 1
+    options:
+    - value: "https:/haxagon.xyz"
+      correct: false
+    - value: ":https://www.alza.cz"
+      correct: true
+    - value: "https:www.seznam.cz"
+      correct: false
+    - value: "https//www.google.com"
+      correct: false
+  - name: "Co je protokol v této url`https://haxagon.xyz/challenge/url`"
+    type: 3
+    points: 1
+    maximumTries: 1
+    options:
+    - value: "https"
+      correct: true
+    - value: "haxagon.xyz"
+      correct: false
+    - value: "/challenge/url"
+      correct: false
+    - value: "://"
       correct: false
