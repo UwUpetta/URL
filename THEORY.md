@@ -54,7 +54,7 @@ Určuje, jaký komunikační způsob se použije. Nejčastěji:
 
 ---
 
-### Host
+### Domain(Doména)
 
 Zpravidla název serveru nebo domény, kde je obsah uložen.
 
@@ -72,7 +72,7 @@ Pokud se používá jiný port než výchozí, je součástí URL (většinou ne
 
 ---
 
-### Path
+### Path(Cesta)
 
 Určuje, kde přesně se obsah na serveru nachází.
 
