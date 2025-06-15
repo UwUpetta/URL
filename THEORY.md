@@ -1,5 +1,3 @@
-# Základy URL
-
 ## Co se naučíte
 
 V tomto materiálu se dozvíte:
@@ -11,7 +9,7 @@ V tomto materiálu se dozvíte:
 
 ---
 
-## Co je to URL?
+## URL
 
 **URL** (*Uniform Resource Locator*) je jednoznačná adresa zdroje na internetu – může to být webová stránka, obrázek, video, dokument apod. Je to adresa, kterou vidíte v adresním řádku vašeho webového prohlížeče.
 
