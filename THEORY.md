@@ -85,7 +85,7 @@ Odkazuje na konkrétní část stránky – třeba záložku nebo nadpis.
 Rozložíme si konkrétní URL:
 
 ```
-https://www.moje-stranka.cz:443/produkty/hodinky?barva=cerna#recenze
+https://www.moje-stranka.cz:443/produkty/hodinky#recenze
 ```
 
 | Část       | Význam                        |
