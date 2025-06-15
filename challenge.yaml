@@ -7,3 +7,18 @@ shortDescription: 'Úvod do struktury URL adres srozumitelně a na příkladech 
 theory: './THEORY.md'
 
 description: './DESCRIPTION.md'
+
+flags:
+  - name: "Co z následujicích příkladů je doména?"
+    type: 3
+    points: 1
+    maximumTries: 1
+    options:
+    - value: "www.haxagon.xyz"
+      correct: false
+    - value: ":443"
+      correct: false
+    - value: "https://"
+      correct: true
+    - value: "/chalange/url"
+      correct: false
