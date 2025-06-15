@@ -11,13 +11,13 @@ V tomto materiálu se dozvíte:
 
 ## URL
 
-**URL** (*Uniform Resource Locator*) je jednoznačná adresa zdroje na internetu – může to být webová stránka, obrázek, video, dokument apod. Je to adresa, kterou vidíte v adresním řádku vašeho webového prohlížeče.
-
+**URL** (*Uniform Resource Locator*) je jednoznačná adresa zdroje na internetu – může to být webová stránka, obrázek, video, dokument apod. Je to adresa, kterou vidíte nahoře v adresním řádku vašeho webového prohlížeče.
+![image](https://github.com/user-attachments/assets/4a4d8c7c-ff84-418a-8a0b-282ba7c5a7ad)
 
 Příklad URL:
 
 ```
-https://haxagon.xyz/challenge/URL
+https://haxagon.xyz/challenge/url
 ```
 
 URL není jen „adresní řádek“ – je to základní stavební prvek celého webu.
